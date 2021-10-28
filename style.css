@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(49 56 64);
+  font-family: "Oswald", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+input,
+button {
+  outline: none;
+  border: none;
+}
+button {
+  cursor: pointer;
+}
+/* fix problem autofill  */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: 5000s ease-in-out 0s;
+}
+.container {
+  margin: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container h1 {
+  color: gold;
+  margin-bottom: 30px;
+  font-family: monospace;
+  font-size: 40px;
+}
+.getData {
+  margin-bottom: 40px;
+}
+.getData input {
+  padding: 10px 5px;
+  width: 400px;
+  border-radius: 5px;
+  height: 32px;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+.getData button {
+  padding: 8px 2px;
+  border-radius: 5px;
+  background-color: #45fd45;
+}
+.results {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+}
+.results h1 {
+  text-align: center;
+  color: #fff;
+}
+.results .result {
+  display: flex;
+  justify-content: center;
+  color: #fafafa;
+  align-items: center;
+  background-color: #c1c1c1;
+  padding: 15px 15px;
+  border-radius: 7px;
+  flex-direction: column;
+  gap: 15px;
+}
+.results .result h3 {
+  margin-right: 5px;
+  color: #222222;
+  font-size: 17px;
+}
+.results .result a {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(0 135 4);
+  border-radius: 5px;
+  padding: 7px 6px;
+  color: #fff;
+}
+.results .result a:hover {
+  background-color: #fff;
+  color: rgb(0 135 4);
+}
+#C69 {
+  margin-top: 40px;
+  color: #ff9090ad;
+  font-family: monospace;
+  font-size: 17px;
+}
