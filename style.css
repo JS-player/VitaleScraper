@@ -57,17 +57,22 @@ input:-webkit-autofill:active {
   border-radius: 5px;
   background-color: #45fd45;
 }
+.getData button:hover {
+  background-color: #fff;
+  color: #2d4a26;
+}
 .results {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 900px;
+  width: 88vw;
 }
 .results h1 {
   text-align: center;
   color: #fff;
+  line-height: 1.5;
 }
 .results .result {
   display: flex;
@@ -84,6 +89,10 @@ input:-webkit-autofill:active {
   margin-right: 5px;
   color: #222222;
   font-size: 17px;
+}
+.results .result img {
+  width: 200px;
+  max-width: 80%;
 }
 .results .result a {
   text-decoration: none;
