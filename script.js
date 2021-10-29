@@ -8,8 +8,10 @@ const inputListner = function () {
     e.preventDefault();
     const inputVal = input.value;
     if (!inputVal || inputVal.length < 1) return;
-    input.value = " ";
-    GetData(inputVal);
+    input.value = "";
+    const urlArr = inputVal.split("/");
+    const srcUrl = urlArr[0] + "//" + urlArr[2] + "/" + urlArr[3];
+    GetData(srcUrl);
   });
 };
 const GetData = (src) => {
