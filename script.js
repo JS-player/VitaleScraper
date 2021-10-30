@@ -24,10 +24,10 @@ const GetData = (src) => {
     T_Shirt_Men_Black:
       src +
       "/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,1000x1000.jpg",
-    Sweet_Shirt_Men_White:
+    Sweatshirt_Men_White:
       src +
       "/ra,sweatshirt,x3102,oatmeal_heather,front-c,451,550,1050,1050-bg,f8f8f8.jpg",
-    Sweet_Shirt_Men_Black:
+    Sweatshirt_Men_Black:
       src +
       "/ra,sweatshirt,x3102,101010:01c5ca27c6,front-c,451,550,1050,1050-bg,f8f8f8.u3.jpg",
     Hoodie_Men_White:
@@ -42,6 +42,12 @@ const GetData = (src) => {
     T_Shirt_Women_Black:
       src +
       "/ssrco,classic_tee,womens,101010:01c5ca27c6,front_alt,square_product,900x900.u1.jpg",
+    T_fit_Women_White:
+      src +
+      "/ssrco,slim_fit_t_shirt,womens,fafafa:ca443f4786,front,square_product,900x900.u2.jpg",
+    T_fit_Women_Black:
+      src +
+      "/ssrco,slim_fit_t_shirt,womens,101010:01c5ca27c6,front,square_product,900x900.u4.jpg",
     Hoodie_Women_White:
       src +
       "/ssrco,mhoodie,womens,fafafa:ca443f4786,front,square_product,x900-bg,f8f8f8.1u1.jpg",
